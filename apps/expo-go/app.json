@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "expo-home",
+    "name": "rork",
     "description": "",
-    "owner": "expo-home-dev",
-    "slug": "home",
+    "owner": "rork-app",
+    "slug": "mobile",
     "privacy": "unlisted",
     "sdkVersion": "52.0.0",
     "version": "52.0.0",
@@ -14,11 +14,6 @@
     ],
     "primaryColor": "#cccccc",
     "icon": "https://s3.amazonaws.com/exp-brand-assets/ExponentEmptyManifest_192.png",
-    "updates": {
-      "checkAutomatically": "NEVER",
-      "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/e3ec11de-308d-48c3-9f4c-c07d90733495"
-    },
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
@@ -34,7 +29,7 @@
     "jsEngine": "hermes",
     "extra": {
       "eas": {
-        "projectId": "e3ec11de-308d-48c3-9f4c-c07d90733495"
+        "projectId": "1fdd5acb-bda7-4145-aaba-08e406d18b21"
       }
     },
     "runtimeVersion": "52.0.0"

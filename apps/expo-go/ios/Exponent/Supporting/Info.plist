@@ -11,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>host.exp.Exponent</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -56,10 +56,6 @@
 			</array>
 		</dict>
 	</array>
-  <key>NSBonjourServices</key>
-  <array>
-    <string>_preflight_check._tcp</string>
-  </array>
 	<key>CFBundleVersion</key>
 	<string>2.32.10</string>
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
@@ -91,6 +87,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_preflight_check._tcp</string>
+	</array>
 	<key>NSCalendarsFullAccessUsageDescription</key>
 	<string>Allow Expo projects to access your calendar</string>
 	<key>NSCalendarsUsageDescription</key>
